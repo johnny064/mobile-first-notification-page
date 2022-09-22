@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+
+/* reset */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* initial style preparation */
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: black;
+
+}
+
+/* div{
+    border:01px solid black;
+} */
+
+.time{
+    margin-left: 40px;
+    color:hsl(219, 14%, 63%);
+}
+/* image resize */
+img {
+    width: 10%;
+    height: auto;
+  }
+
+/* main container style */
+
+.main-container{
+    width:375px;
+    margin: 30px auto;
+    padding: 30px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Header menu style */
+
+.header-menu{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.notify-icon{
+    font-size: 17px;
+    font-weight: 900;
+    color: hsl(224, 21%, 14%);
+}
+
+.notify-icon button{
+    position: absolute;
+    bottom: 1px;
+    padding: 3px 8px ;
+    margin-left: 04px;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.read-menu{
+    cursor: pointer;
+}
+
+/* Notification 01 --> Mark Webber */
+
+.not01{
+    margin-bottom: 10px;
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not01 img{
+    float: left;
+    margin-right: 10px;
+}
+
+.not01 p a:first-child{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not01 p a:last-child{
+    color: hsla(224, 21%, 14%, 0.714);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not01 i{
+    margin-left: 08px;
+    color: hsl(1, 90%, 64%);
+    font-size: 10px;
+}
+
+
+/* Notification 02 --> Angela Gray */
+.not02{
+    /* margin-top: 10px; */
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not02 img{
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.not02 p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not02 i{
+    margin-left: 08px;
+    color: hsl(1, 90%, 64%);
+    font-size: 10px;
+}
+
+/* Notification 03 --> Jacob Thompson */
+
+
+.not03{
+    margin-top: 10px;
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not03 img{
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.not03 p a:first-child{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not03 p a:last-child{
+    color: hsla(224, 21%, 14%, 0.714);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not03 i{
+    margin-left: 08px;
+    color: hsl(1, 90%, 64%);
+    font-size: 10px;
+}
+
+/* Notification 04 --> Rizky Hasanuddin */
+
+.not04{
+    margin-top: 10px;
+    /* background-color: hsl(210, 60%, 98%); */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not04 img{
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.not04 p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not04-sub{
+    border: 1px solid hsl(205, 33%, 90%);
+    background-color: hsl(211, 68%, 94%);
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+/* Notification 05 --> Kimberly Smith */
+
+.not05{
+    
+    margin-top: 10px;
+    /* background-color: hsl(210, 60%, 98%); */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not05 img:first-child{
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+.not05 img:last-child{
+    float: right;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.not05 p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* Notification 06 --> Nathan Peterson */
+
+.not06{
+    margin-top:10px ;
+    /* background-color: hsl(210, 60%, 98%); */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.not06 img{
+    float: left;
+    margin-top: -8px;
+    margin-right: 10px;
+}
+
+.not06 p{
+    margin-left: 40px;
+}
+
+.not06 p a:first-child{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.not06 p a:last-child{
+    color: hsla(224, 21%, 14%, 0.714);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+/* media qurey for responsive design  */
+
+@media screen and (min-width: 1440px) {
+    body{
+        transition: 0.5s all ease-out;
+    }
+
+    .main-container{
+        width:600px;
+        font-size: 14px;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .not-02{
+        padding: 30px;
+    }
+
+  }
