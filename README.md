@@ -14,8 +14,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/johnny064/mobile-first-notification-page)
+- Solution URL: [https://github.com/johnny064/mobile-first-notification-page](https://github.com/johnny064/mobile-first-notification-page)
 
 ## My process
 
