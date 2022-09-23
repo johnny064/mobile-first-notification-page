@@ -12,7 +12,7 @@
 /* initial style preparation */
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: black;
+    background-color: #ddd;
 
 }
 
@@ -269,10 +269,7 @@ img {
 
 /* javascript classlist */
 .active{
-        margin-bottom: 10px;
         background-color: white;
-        border-radius: 10px;
-        padding: 10px;
         transition: 0.5s ease-out;
     
 }
