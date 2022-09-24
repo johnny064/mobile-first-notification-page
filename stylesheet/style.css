@@ -57,18 +57,16 @@ img {
     color: hsl(224, 21%, 14%);
 }
 
-.notify-icon button{
+#notification_count{
     position: absolute;
     bottom: 1px;
-    padding: 3px 8px ;
-    margin-left: 04px;
+    padding: 2px 6px ;
+    left:110px;
     background-color: hsl(219, 85%, 26%);
     color: white;
-    font-weight: 600;
+    font-size: 0.7rem;
     text-align: center;
     border-radius: 4px;
-    outline: none;
-    border: none;
 }
 
 .read-menu:hover{
@@ -76,15 +74,15 @@ img {
     cursor: pointer;
 }
 
-/* Notification 01 --> Mark Webber */
-
-.not01{
+/* class grouping */
+.not01, .not02, .not03 {
     margin-bottom: 10px;
-    background-color: hsl(210, 60%, 98%);
+    background-color: hsl(209, 91%, 91%);
     border-radius: 10px;
     padding: 10px;
 }
 
+/* Notification 01 --> Mark Webber */
 .not01 img{
     float: left;
     margin-right: 10px;
@@ -112,16 +110,10 @@ img {
 
 
 /* Notification 02 --> Angela Gray */
-.not02{
-    /* margin-top: 10px; */
-    background-color: hsl(210, 60%, 98%);
-    border-radius: 10px;
-    padding: 10px;
-}
+
 
 .not02 img{
     float: left;
-    margin-top: -8px;
     margin-right: 10px;
 }
 
@@ -141,16 +133,8 @@ img {
 /* Notification 03 --> Jacob Thompson */
 
 
-.not03{
-    margin-top: 10px;
-    background-color: hsl(210, 60%, 98%);
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .not03 img{
     float: left;
-    margin-top: -8px;
     margin-right: 10px;
 }
 
@@ -185,7 +169,6 @@ img {
 
 .not04 img{
     float: left;
-    margin-top: -8px;
     margin-right: 10px;
 }
 
@@ -218,12 +201,10 @@ img {
 
 .not05 img:first-child{
     float: left;
-    margin-top: -8px;
     margin-right: 10px;
 }
 .not05 img:last-child{
     float: right;
-    margin-top: -8px;
     margin-right: 10px;
 }
 
@@ -245,7 +226,6 @@ img {
 
 .not06 img{
     float: left;
-    margin-top: -8px;
     margin-right: 10px;
 }
 
@@ -266,6 +246,13 @@ img {
     font-weight: 800;
     cursor: pointer;
 }
+
+/* Footer */
+.attribution { font-size: 11px; 
+               text-align: center;
+               padding-bottom: 15px;
+            }
+    .attribution a { color: hsl(228, 45%, 44%); }
 
 /* javascript classlist */
 .active{
